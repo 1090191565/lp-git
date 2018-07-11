@@ -1,0 +1,4 @@
+<div id="test"></div>
+				<script >
+					setInterval("document.getElementById('test').innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",100);
+				</script>
